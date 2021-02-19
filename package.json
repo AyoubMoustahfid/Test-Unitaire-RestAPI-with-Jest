@@ -1,0 +1,28 @@
+{
+  "name": "attelier-gestion-bank-with-testing-unitaire",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "jest ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "chai": "^4.3.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mocha": "^8.3.0",
+    "mongodb": "^3.6.4",
+    "mongoose": "^5.11.16"
+  },
+  "devDependencies": {
+    "chai-http": "^4.3.0",
+    "cross-env": "^7.0.3",
+    "jest": "^26.6.3",
+    "supertest": "^6.1.3"
+  }
+}
